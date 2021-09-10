@@ -1,0 +1,49 @@
+body {
+	border:1px solid #977A7B;
+    width: auto;
+    background: #DFC9CA;
+	text-align: center;
+}
+
+.navLists {
+	font-size: 18px;
+	font-family:Constantia, "berkshire-swash", "DejaVu Serif", Georgia, "serif";
+    list-style: none;
+	padding: 5px;
+	
+}
+
+.navLists li{
+    display: inline;
+    position: relative;
+	padding: 0 6px;
+}
+
+ul li{
+	list-style-position: inside;
+}
+
+ol li {
+	list-style-position: inside;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+
+ol li span {
+	font-weight: 600;
+}
+
+h1 {
+	color: rosybrown;
+}
+
+h2 {
+	color:darkgreen;
+}
+
+h3 {
+	color:darkmagenta;
+}
+
+p {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
