@@ -1,159 +1,195 @@
 /* CSS Document */
 
 .header {
-  list-style-type: none;
-  margin: 10px;
-  overflow: hidden;
-  margin-right: 16px;
-  font-family: arial,sans-serif;
-  font-size: 13px;
+	list-style-type: none;
+  	margin: 10px;
+  	overflow: hidden;
+ 	margin-right: 16px;
+  	font-family: arial,sans-serif;
+  	
 }
 
+.profilpic {
+	border-radius: 50%;
+	width: 32px;
+}
+
+#voiceSearchButton {
+	display: flex;
+	height: 24px;
+	margin: 5px;
+	position: relative; /* Bir nesneye position:relative; dediğimizde nesne gene normal akış içerisinde olmaya devam eder ancak top, right, bottom ve left özelliklerini kullanma fırsatı verir. */
+	cursor: pointer; /* imlec ilgili elementin üzerinde el işareti oluşturur.*/
+  }
+
 .headerli a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 5px 5px;
-  text-decoration: none;
+  	display: block;
+  	color: black;
+  	text-align: center;
+  	padding: 5px 5px;
+  	text-decoration: none;
+	float: right;
 }
 
 .headerli a:hover {
-  text-decoration: underline;
+  	text-decoration: underline;
 }
 
 .container {
-  text-align: center;
-  margin: 100px;
+  	text-align: center;
+  	margin: 100px;
 }
 
 .search-area {
-  background: #fff;
-  display: flex;
-  border: 1px solid #dfe1e5;
-  box-shadow: none;
-  z-index: 3;
-  height: 44px;
-  margin: 0 auto;
-  margin-top: -77px;
-  width: 582px;
+  	background: #fff;
+  	display: flex;
+  	border: 1px solid #dfe1e5;
+  	box-shadow: none;
+  	z-index: 3;
+  	height: 44px;
+  	margin: 0 auto;
+  	margin-top: -77px;
+  	width: 582px;
+	border-radius: 20px;
 }
 
 .search-area:hover {
-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .search {
-  flex: 1;
-  display: flex;
-  padding: 5px 8px 0 16px;
-  padding-left: 14px;
+  	flex: 1;
+  	display: flex;
+  	padding: 5px 8px 0 16px;
+  	padding-left: 14px;
 }
 
 .search-img {
-  display: flex;
-  align-items: center;
-  padding-right: 13px;
-  margin-top: -5px;
+  	display: flex;
+  	align-items: center;
+  	padding-right: 13px;
+  	margin-top: -5px;
 }
 
 .search-img span {
-  color: #9aa0a6;
-  height: 20px;
-  width: 20px;
-  margin-top: 0px;
-  display: inline-block;
-  fill: currentColor;
-  line-height: 24px;
-  position: relative;
+	color: #9aa0a6;
+	height: 20px;
+	width: 20px;
+	margin-top: 0px;
+	display: inline-block;
+	fill: currentColor;
+	line-height: 24px;
+	position: relative;
 }
 
 .input-enter {
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
+  	display: flex;
+  	flex: 1; /*tüm esnek ögelerin aynı uzunlukta olmasına izin verir*/
+  	flex-wrap: wrap; /*esnek ogeleri birden fazla satırda soldan saga sıralar*/
 }
 
 .input-area {
-  color: transparent;
-  flex: 100%;
-  white-space: pre;
-  font: 16px arial, sans-serif;
-  line-height: 34px;
-  height: 34px !important;
-  display: block;
+  	color: transparent;
+  	flex: 100%;
+  	white-space: pre;
+  	font: 16px arial, sans-serif;
+  	line-height: 34px;
+  	height: 34px !important;
+  	display: block;
 }
 
 .input {
-  margin: 0;
-  padding: 0;
-  color: rgba(0, 0, 0, 0.87);
-  word-wrap: break-word;
-  outline: none;
-  display: flex;
-  flex: 100%;
-  margin-top: -68px;
-  font: 16px arial, sans-serif;
-  line-height: 34px;
-  height: 34px !important;
-  text-rendering: auto;
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-transform: none;
-  text-indent: 0px;
-  text-shadow: none;
-  text-align: start;
-  appearance: textfield;
-  cursor: text;
+  	margin: 0;
+ 	padding: 0;
+  	color: rgba(0, 0, 0, 0.87);
+  	word-wrap: break-word;
+  	outline: none;
+  	display: flex;
+  	flex: 100%;
+  	margin-top: -68px;
+  	font: 16px arial, sans-serif;
+  	line-height: 34px;
+  	height: 34px !important;
+  	text-rendering: auto;
+  	letter-spacing: normal;
+  	word-spacing: normal;
+  	text-transform: none;
+  	text-indent: 0px;
+  	text-shadow: none;
+  	text-align: start;
+  	appearance: textfield;
+  	cursor: text;
+	width: 450px; /* Genişlik 450px yapıldı. */
+	border: none; /* Çerçeve silindi */
+	
+}
+.buttons{
+  	display: flex; /* CSS3 ile birlikte gelen flex sayfa içindeki elemanların kolayca yerleştirilmesi için kullanılır. */
+	margin-top: 16px;
+	justify-content: center; /*Flex özelliğine sahip olan bir kapsayıcının yatay eksende nasıl hizalanacağını ayarlar. Objeler başta mı, ortada mı, sonda mı, aralıklı mı dizileceğine karar vermemizi sağlar. Biz center dediğimiz için ortada hizaladı.*/
+	align-items: center; /*Bu özellik ise justify-content‘in yatay eksende yaptığı şeyleri dikey eksende yapmaya yarar. */
 }
 
 .googlesearch {
-  margin: 11px 4px;
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
-}
+	margin: 11px 4px;
+	padding: 0 16px;
+	line-height: 27px;
+	min-width: 54px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	border: 1px solid  #f2f2f2;  /* solid burda düz kenarlık anlamına gelir, mesela dotted yazsaydık solid yerine, kenarlık noktalı olurdu. */
+	font-family: Arial, Helvetica, sans-seri, ;
+	font-size: 14px;
+	color: #5f6368; 
+	height: 36px;
+  }
 
 .feelinglucky {
-  padding: 0 16px;
-  line-height: 27px;
-  min-width: 54px;
-  text-align: center;
-  cursor: pointer;
-  user-select: none;
+  	padding: 0 16px;
+  	line-height: 27px;
+  	min-width: 54px;
+  	text-align: center;
+  	cursor: pointer;
+  	user-select: none;
+	border: 1px solid  #f2f2f2;
+	font-family: Arial, Helvetica, sans-seri, ;
+	font-size: 14px;
+	color: #5f6368; 
+	height: 36px;
 }
 
 .footer {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  border: 1px solid #dfe1e5;
-  border-top: 1px solid #dadce0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  margin-left: -8px;
-  line-height: 10px;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	border: 1px solid #dfe1e5;
+  	border-top: 1px solid #dadce0;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	margin-left: -8px;
+  	line-height: 10px;
+	background-color:  #f2f2f2;
+  	list-style-type: none; /* Bullet pointleri yok etmek için kullaıldı. */
 }
 
 .footerli {
-  float: left;
+  	float: left;
 }
 
 .footerli a {
-  display: block;
-  color: #70757a;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: arial, sans-serif;
-  font-size: 14px;
-  margin-left: 14px;
-  margin-right: -20px;
+  	display: block;
+  	color: #70757a;
+ 	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-family: arial, sans-serif;
+  	font-size: 14px;
+  	margin-left: 14px;
+  	margin-right: -20px;
 }
 
 .footerli a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
