@@ -12,3 +12,4 @@ Code Görünümü
 
 # Ödev-1 (Google Web Page)
 
+![Google Web Page](/webGooglePage/screenshots/googlePageScreenshot.jpg)
