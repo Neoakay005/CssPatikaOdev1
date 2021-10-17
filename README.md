@@ -17,4 +17,4 @@ Code Görünümü
 
 # Ödev-2 (Google 98 Web Page)
 
-![Google Web Page](/webGooglePage1998/screenshots/Screenshot.jpg)
+![Google Web Page](/webGooglePage1998/screenshot/Screenshot.jpg)
