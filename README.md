@@ -13,3 +13,8 @@ Code Görünümü
 # Ödev-1 (Google Web Page)
 
 ![Google Web Page](/webGooglePage/screenshots/googlePageScreenshot.jpg)
+
+
+# Ödev-2 (Google 98 Web Page)
+
+![Google Web Page](/webGooglePage1998/screenshots/Screenshot.jpg)
